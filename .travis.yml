@@ -1,0 +1,7 @@
+language: python
+python: 
+    - "3.5"
+script:
+    - cd src
+    - pip3 install requests
+    - python3 crawlonwebsoc.py
